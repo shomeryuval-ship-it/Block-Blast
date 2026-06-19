@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="איך משחקים?"
+        android:textColor="#FFD700"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#1E1E1E"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="מטרת המשחק:"
+                android:textColor="#FF4081"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="להשיג את הניקוד הגבוה ביותר על ידי השלמת שורות ועמודות מלאות על לוח המשחק."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="right"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="חוקי המשחק:"
+                android:textColor="#00E676"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• בכל תור תקבל 3 צורות בתחתית המסך.\n\n• גרור את הצורה באמצעות האצבע ומקם אותה במשבצות הפנויות שעל הלוח.\n\n• כאשר שורה אופקית או עמודה אנכית מתמלאת לחלוטין - היא מתפוצצת, נעלמת ומעניקה לך נקודות בונוס!\n\n• לאחר שתשתמש בכל 3 הצורות, תקבל 3 צורות חדשות."
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="right"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="פסילה (Game Over):"
+                android:textColor="#FF5252"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="המשחק מסתיים כאשר אין יותר מקום פנוי על הלוח לאף אחת מהצורות שנותרו לך במאגר. תכנן את הצעדים שלך בחוכמה!"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="right"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

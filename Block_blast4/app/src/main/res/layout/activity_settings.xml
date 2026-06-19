@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="SETTINGS"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/modeChb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enable 1-Minute Timer Mode"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:buttonTint="#4CAF50" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="15dp"
+        android:text="שם השחקן"
+        android:textColor="#AAAAAA"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/nameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="השם שלך..."
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:backgroundTint="#4CAF50"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/saveNameBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="שמור שם"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="#4CAF50"
+        android:padding="15dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

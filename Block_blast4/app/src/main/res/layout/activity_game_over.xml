@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://android.com"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#12122B"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    tools:context=".GameOverActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:id="@+id/tvGameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER"
+        android:textColor="#FF5252"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/finalScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/bestScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best: 0"
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/ReGamebtn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#4CAF50"
+        android:text="PLAY AGAIN"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/HomeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#2196F3"
+        android:text="HOME"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/RecordsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:backgroundTint="#9C27B0"
+        android:text="RECORDS"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>

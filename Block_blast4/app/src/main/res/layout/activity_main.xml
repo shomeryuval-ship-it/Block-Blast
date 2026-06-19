@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://android.com"
+    android:id="@+id/main_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#12122B"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvGameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLOCK BLAST"
+        android:textColor="#2196F3"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/personalHighScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best Score: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/gamebtn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#4CAF50"
+        android:text="PLAY GAME"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/settbtn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#2196F3"
+        android:text="SETTINGS"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/recbtn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#9C27B0"
+        android:text="LEADERBOARD"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/instbtn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:backgroundTint="#FF9800"
+        android:text="INSTRUCTIONS"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>

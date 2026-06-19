@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "501050945474",
+    "project_id": "blockblastgame-12944",
+    "storage_bucket": "blockblastgame-12944.firebasestorage.app",
+    "firebase_url": "https://blockblastgame-12944-default-rtdb.europe-west1.firebasedatabase.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501050945474:android:8a8402c01240435b87705b",
+        "android_client_info": {
+          "package_name": "com.example.block_blast"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_q984iEM60r0Gu1CPqgGzp7cqN3zwBUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
